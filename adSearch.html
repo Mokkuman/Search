@@ -21,30 +21,40 @@
     <div class="tittle"> Advanced Search</div>
     <hr>
     <div class="main">
-        <form action="/search" name="f">
+        <form action="https://www.google.com/search" name="f" >
             <div class="cont">
                 <div id="mttle"> Find pages with... </div>
                 <div class="container">
-                    <div id="txt" for="allBox">all these words:</div>
-                    <div id="box"><input type="text" ></div>
+                    <div id="txt">all these words:</div>
+                    <div id="box1"><input type="text"  name="as_q"></div>
+                    <div id="nota">
+
+                    </div>
                 </div>
                 <div class="container">
-                    <div id="txt">this exact word or phrase:</div>
-                    <div id="box"><input type="text" ></div>
+                    <div id="txt" >this exact word or phrase:</div>
+                    <div id="box"><input type="text" name="as_epq"></div>
+                    <div id="nota">
+                        
+                    </div>
                 </div>
                 <div class="container">
                     <div id="txt">any of these words:</div>
-                    <div id="box"><input type="text" ></div>
+                    <div id="box"><input type="text" name="as_oq"></div>
+                    <div id="nota">
+                        
+                    </div>
                 </div>
                 <div class="container">
                     <div id="txt">none of these words:</div>
-                    <div id="box"><input type="text" ></div>
+                    <div id="box"><input type="text" name="as_eq"></div>
+                    <div id="nota">
+                        
+                    </div>
                 </div>
-                <div class="container">
-                    <div id="txt">numbers ranging from:</div>
-                    <div id="boxNumb"><input type="text" ></div>
-                    <div id="txtNumb">to</div>
-                    <div id="boxNumb"><input type="text" ></div>
+                <div>
+                    <input type="hidden" name="tbs">
+                    <input type="submit" value="Advanced Search">
                 </div>
             </div>
 

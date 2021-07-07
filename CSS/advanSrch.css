@@ -49,6 +49,7 @@ header{
 }
 .container{
     margin-bottom: 15px;
+    height: 22px;
     clear: both;
 }
 #txt{
@@ -56,20 +57,9 @@ header{
     display: inline-block;
     min-width: 167px;
 }
-#txtNumb{
-    display: inline-block;
-    float: left;
-    margin: 0 15px;
-}
+
 #box{
     float:left;
     display: inline-block;
 }
-#boxNumb{
-    float:left;
-    max-width: 60px;
-    display: inline-block;
-}
-span{
-    text-align: center;
-}
+
