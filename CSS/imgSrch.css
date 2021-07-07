@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+header{
+   width: auto;
+   height: 40px;
+}
+.opc{
+   display: flex;
+   margin-top: 15px;
+   align-items: center;
+   float: right;
+}
+.opc_i{
+   padding-left: 15px;
+}
+.opc_i a:visited, a:link{
+   text-decoration: none;
+   color: #2B2B2B;
+}
+.opc_i:hover{
+   text-decoration: underline;
+}
+.opc:last-child{
+   padding-right: 10px;
+}
+#imgn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-top: 130px;
+ }
+ #im{
+    align-items: center;
+    display: flex;
+    width: 258px;
+ }
+ /*Tmn imagen*/
+ img{
+    width: 258px;
+    height: 90px;
+    object-fit: contain;
+    object-position: center;
+ }
+#imtxt{
+   position: relative;
+   top: -20px;
+   left: 100px;
+   font-size: 16px;
+   color:#176BEF;
+   font-family: 'Roboto', sans-serif;
+}
+ /*FORMULARIO*/
+ .frm{
+    max-width: 600px;
+    /*max-*/height: 150px;
+    margin: 15px auto 0;
+    text-align: center;
+ }
+ 
+ .busq{
+    border: 1px solid #BABABA;
+    border-radius: 25px;
+    display: flex; /*USANDO FLEXBOX*/
+    /*con la instruccion anterior posiciona
+    todo en solo un row*/
+ }
+ .busq:hover{
+    box-shadow: 1px 1px 3px 2px #dfdbdb;
+    /*box-shadow: none|h-offset v-offset blur spread color*/
+ }
+ #iconSrch{
+    color: #A3A3A3;
+    font-size: 20px;
+    text-align: center;
+    padding: 7px 13px 0;
+    display: inline-block;/*El div encierra
+    en su totalidad al elemento*/
+    
+ }
+ #txt{/*div del input text*/
+    float:right;
+    width: 100%;
+    /*margin: 0 auto;*/
+ }
+ 
+ input[type=text]{/*input text*/
+    height: 34px;
+    font-size: 16px;
+    border: none;
+    outline: 0px;
+    width: 100%;
+ }
+ #cmr{/*icono camara*/
+    display: inline-block;
+    color: #757575;
+    font-size: 22px;
+    padding:  6px 0 0;
+ }
+ #iconMic{
+    display: inline-block;
+    color: #757575;
+    font-size: 20px;
+    padding: 7px 13px 0;
+ }
+
