@@ -1,18 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 header{
-    width: auto;
-    height: 40px;
-    
+    margin-top: 25px;
+    width: 0 auto;
+    height: 70px;
  }
+ #imgnAdvanced{
+     display: flex;
+     align-items: flex-end;
+     float: left;
+     padding-left: 15px;
+     
+ }
+ #imAdvanced{
+    display: flex; 
+    width: 60px;
+}
  .opc{
     display: flex;
-    margin-top: 15px;
     align-items: center;
     float: right;
  }
  .opc_i{
-    padding-left: 15px;
+    margin-left: 15px;
  }
  .opc_i a:visited, a:link{
     text-decoration: none;
@@ -63,3 +73,11 @@ header{
     display: inline-block;
 }
 
+#btnAdvanced{
+    background-color: #176BEF;
+    border: 1px solid #105edb;
+    border-radius: 4px;
+
+    font-size: 16px;
+    color: white;
+}
